@@ -1,0 +1,9 @@
+{
+  "name": "rollup-example-for-srcspider",
+  "devDependencies": {
+    "rollup": "^0.7.8"
+  },
+  "scripts": {
+	"build": "rollup --input src/main --output dist/bundle.js --format cjs"
+  }
+}
